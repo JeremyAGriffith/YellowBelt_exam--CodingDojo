@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Yellow Belt Exam</title>
+
+	<link rel="stylesheet" type="text/css" href="css.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.feature').on('click', function(){
+				$(this).slideUp(1000);
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<img src="imgs/logo.png" alt="logo">
+			<div id="site_options">
+				<a href="#">Site Map</a> | <a href="#">Sign In</a>
+			</div>
+			<form action="process.php" id="search_form">
+				<input type="text" name="search" id="search" placeholder="search this site" />
+				<button type="submit">search</button>
+			</form>
+			<ul id="nav">
+				<li class="highlighted_page"><a href="#">home</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">articles</a></li>
+				<li><a href="#">broadcasts</a></li>
+				<li><a href="#">newsletter</a></li>
+				<li><a href="#">contact us</a></li>
+				<li><a href="#">resources</a></li>
+				<li><a href="#">donate</a></li>
+			</ul>
+		</div>
+		<div id="main">
+			<div id="banner_l">
+				<div>
+					<h3>Who We Are</h3>
+					<p>...all about helping <span class="underline">YOU</span> ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, a magni animi non alias dolores voluptate dolorem distinctio temporibus nemo libero itaque quaerat totam atque quasi <a href="">Center For Family Healing</a>. <span class="italics">Doloremque blanditiis maxime quae debitis similique asperiores laborum numquam earum.</span></p>
+					<p>
+						<a class="btn btn-white" href="#">our staff</a>
+						<a class="btn btn-white" href="#">our mission</a>
+					</p>
+				</div>
+				<div id="monthly_words">
+					<p class="date">April 2013</p>
+					<p>Grant Us Peace</p>
+					<p>Respond, not react.</p>
+				</div>
+			</div>
+			<div id="content">
+				<img src="imgs/awkward_man_and_boy_cropped.png" alt="awkward_man_and_boy" class="feature" />
+				<h2>Resources for Families</h2>
+				<ul id="resources">
+					<li>
+						<img src="imgs/dad_and_daughter_cropped.png" alt="dad_and_daughter" class="left" />
+						<div>
+							<h4>Parenting <img src="imgs/arrow.png" alt="arrow" /></h4>
+							<ul class="links">
+								<li><a href="#">Children</a></li>
+								<li><a href="#">Adolescents</a></li>
+								<li><a href="#">Adult Children</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="imgs/dad_and_daughter_cropped.png" alt="dad_and_daughter" class="left" />
+						<div>
+							<h4>Relationship Building <img src="imgs/arrow.png" alt="arrow" /></h4>
+							<ul class="links">
+								<li><a href="#">Marriage</a></li>
+								<li><a href="#">Family</a></li>
+								<li><a href="#">Singles</a></li>
+								<li><a href="#">Friendships</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="banner_r">
+				<div id="news">
+					<h3>what's new?</h3>
+					<div>
+						<p class="bold">Cadence 91</p>
+						<p>Cadence 91 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis aliquam adipisci quos culpa explicabo commodi sequi deserunt quisquam nihil amet.</p>
+						<a href="#" class="btn btn-readmore">Read More...</a>
+					</div>
+				</div>
+				<div id="rosa_col">
+					<p>Ever wanted to ask a personal question but felt uncomfortable asking dace to face?</p>
+					<p>click here to ask:</p>
+					<a href="#" class="btn btn-rosa">Dear Rosa</a>
+				</div>
+			</div>
+		</div> <!-- #main -->
+	</div>
+</body>
+</html>
